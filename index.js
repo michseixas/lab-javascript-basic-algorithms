@@ -1,9 +1,9 @@
 // Iteration 1: Names and Input
-let hacker1 = "Javier";
+let hacker1 = "Mich";
 console.log(`The driver's name is ${hacker1}`);
 
-let hacker2 = "Mich";
-console.log(`The driver's name is ${hacker2}`);
+let hacker2 = "Javier";
+console.log(`The navigators's name is ${hacker2}`);
 
 // Iteration 2: Conditionals
 
@@ -44,4 +44,25 @@ for ( index = lastIndex ; index >= 0; index--) {
 console.log(nameReversed);
 
 
-//
+// lexicographic order:
+/*let hacker1 = "Javier";
+let hacker2 = "Mich";
+*/
+
+switch(true) {
+
+    case hacker1 < hacker2:
+    console.log("The driver's name goes first.");
+    break;
+
+    case hacker1 > hacker2:
+    console.log("Yo, the navigator goes first, definitely.");
+    break;
+
+    case hacker1 === hacker2:
+    console.log("What?! You both have the same name?");
+    break;
+  }
+
+
+
